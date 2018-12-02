@@ -1,6 +1,6 @@
 const {of} = require('rxjs');
 const {tap} = require('rxjs/operators');
-const {exitKey, key, sequence, forKey} = require('../../src/keys/keyOperators');
+const {exitKey, key, sequence, forKey} = require('@sdk/keys/keyOperators');
 
 let key$;
 beforeAll(() => {
@@ -10,7 +10,6 @@ beforeAll(() => {
 		{name: 'b', sequence: '\u0003'},
 	);
 });
-
 
 describe('Key Tests', () => {
 	
