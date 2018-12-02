@@ -45,6 +45,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "husky": "^1.2.0",
     "rxjs": "^6.3.3"
   },
   "engines": {
@@ -57,5 +58,10 @@
     "test:dev": "cross-env NODE_ENV=test jest",
     "test": "cross-env NODE_ENV=test jest --coverage && codecov",
     "release": "npm run test:dev && npm run build && node ./tools/tag.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn test:dev"
+    }
   }
 }
