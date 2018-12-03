@@ -18,13 +18,12 @@ const key = (k) => filter(isKey(k));
 const sequence = (s) => filter(isSequence(s));
 
 /**
- * Simple operator to filter Exit Key events, i.e. ESC and Ctrl-C
+ * Simple RxJS operator to filter Exit Key events, i.e. ESC and Ctrl-C
  *
  * @example
  *
  * 	key$.pipe(exitKey).subscribe(fn);
  *
- * @type {OperatorFunction<any, any> | MonoTypeOperatorFunction<any>}
  */
 const exitKey = filter((e) => isKey('escape')(e) || isSequence('\u0003')(e));
 
@@ -37,7 +36,7 @@ const exitKey = filter((e) => isKey('escape')(e) || isSequence('\u0003')(e));
  * .do(forKey('h')(() => printHelp(keyMap)))
  *
  * @param k A key event of type `{name,sequence}`
- * @returns {function(*, *=): function({name: *, sequence: *}): (boolean|*)} A function
+ * @returns A function with first argument as callback, and 2nd as calling context
  */
 const forKey = k => (fn, ctx = null) => ({name, sequence}) => (name === k || sequence === k) && fn.call(ctx);
 

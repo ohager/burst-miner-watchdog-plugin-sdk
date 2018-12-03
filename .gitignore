@@ -62,4 +62,4 @@ typings/
 
 # custom
 .idea/
-dist/
+docs/
