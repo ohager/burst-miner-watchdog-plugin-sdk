@@ -1,9 +1,9 @@
 const {of} = require('rxjs');
 const {tap} = require('rxjs/operators');
-const {exitKey, key, sequence, forKey} = require('@sdk/keys/keyOperators');
+const {exitKey, key, sequence, forKey} = require('@/keys/keyOperators');
 
 let key$;
-beforeAll(() => {
+beforeEach(() => {
 	key$ = of(
 		{name: 'a', sequence: ''},
 		{name: 'escape', sequence: ''},

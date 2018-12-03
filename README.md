@@ -7,8 +7,8 @@ SDK for Plugin Development for [Burstcoin Miner Watchdog](https://github.com/oha
 
 ## What is it?
 
-This repository provides two things:
+This repository provides tools for developing plugin, i.e. useful functions etc., for the 
+[Burstcoin Miner Watchdog](https://github.com/ohager/burst-miner-watchdog.git)
 
-- plugins for the [Burstcoin Miner Watchdog](https://github.com/ohager/burst-miner-watchdog.git)
-- Tools for developing plugin, i.e. useful functions etc.
+// TODO
 

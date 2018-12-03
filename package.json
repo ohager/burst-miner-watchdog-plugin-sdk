@@ -39,8 +39,7 @@
   "jest": {
     "testEnvironment": "node",
     "moduleNameMapper": {
-      "@sdk/(.*)$": "<rootDir>/src/sdk/$1",
-      "@plugins/(.*)$": "<rootDir>/src/plugins/$1"
+      "@/(.*)$": "<rootDir>/src/$1"
     }
   },
   "dependencies": {
@@ -57,7 +56,8 @@
     "esdoc": "./node_modules/.bin/esdoc",
     "test:dev": "cross-env NODE_ENV=test jest",
     "test": "cross-env NODE_ENV=test jest --coverage && codecov",
-    "release": "npm run test:dev && npm run build && node ./tools/tag.js"
+    "release": "npm run test:dev && npm run build && node ./tools/tag.js",
+    "release-local": "npm run test:dev && npm run build && node ./tools/install-local.js"
   },
   "husky": {
     "hooks": {
