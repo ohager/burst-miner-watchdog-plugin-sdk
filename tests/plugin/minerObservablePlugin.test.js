@@ -29,6 +29,9 @@ describe('Miner Observable Plugin Tests', () => {
 			expect(provider.name).toBe("test");
 			
 			expect(provider.provide).toThrow();
+			expect(provider.blockEvents).toThrow();
+			expect(provider.errorEvents).toThrow();
+			expect(provider.closeEvents).toThrow();
 			
 		});
 
