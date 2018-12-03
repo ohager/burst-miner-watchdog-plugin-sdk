@@ -4,6 +4,7 @@
 
 SDK for Plugin Development for [Burstcoin Miner Watchdog](https://github.com/ohager/burst-miner-watchdog.git)
 
+[Documentation](https://ohager.github.io/burst-miner-watchdog-plugin-sdk/)
 
 ## What is it?
 
