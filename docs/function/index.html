@@ -151,11 +151,11 @@
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/keys/keyOperators.js.html#lineNumber41">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/keys/keyOperators.js.html#lineNumber48">source</a></span></span>
     </span>
   </h3>
 
-  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import {forKey} from &apos;<span><a href="file/src/keys/keyOperators.js.html#lineNumber41">burst-miner-watchdog-plugin-sdk/src/keys/keyOperators.js</a></span>&apos;</code></pre></div>
+  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import {forKey} from &apos;<span><a href="file/src/keys/keyOperators.js.html#lineNumber48">burst-miner-watchdog-plugin-sdk/src/keys/keyOperators.js</a></span>&apos;</code></pre></div>
   
   
   <div data-ice="description"><p>High Order Function that allows (transparent) executions for specific keys.</p>
@@ -212,9 +212,16 @@
   <div class="example-doc" data-ice="exampleDoc">
       
       <pre class="prettyprint source-code"><code data-ice="exampleCode">
+// RXJS 5.x
 key$
 .do(forKey(&apos;c&apos;)(printConfiguration))
-.do(forKey(&apos;h&apos;)(() =&gt; printHelp(keyMap)))</code></pre>
+.do(forKey(&apos;h&apos;)(() =&gt; printHelp(keyMap)))
+
+// RXJS 6.x
+key$.pipe(
+ tap(forKey(&apos;c&apos;)(printConfiguration)),
+ tap(forKey(&apos;h&apos;)(() =&gt; printHelp(keyMap))),
+)</code></pre>
     </div>
 </div>
 

@@ -31,9 +31,16 @@ const exitKey = filter((e) => isKey('escape')(e) || isSequence('\u0003')(e));
  * High Order Function that allows (transparent) executions for specific keys.
  * @example
  *
+ * // RXJS 5.x
  * key$
  * .do(forKey('c')(printConfiguration))
  * .do(forKey('h')(() => printHelp(keyMap)))
+
+ * // RXJS 6.x
+ * key$.pipe(
+ *  tap(forKey('c')(printConfiguration)),
+ *  tap(forKey('h')(() => printHelp(keyMap))),
+ * )
  *
  * @param k A key event of type `{name,sequence}`
  * @returns A function with first argument as callback, and 2nd as calling context
