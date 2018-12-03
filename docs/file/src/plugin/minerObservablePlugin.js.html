@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/plugin/minerObservablePlugin.js | burst-miner-watchdog-plugin-sdk</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Plugin SDK for burst-miner-watchdog"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="burst-miner-watchdog-plugin-sdk"><meta property="twitter:description" content="Plugin SDK for burst-miner-watchdog"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/ohager/burst-miner-watchdog-plugin-sdk.git"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#keys">keys</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/keys/keyObservable.js~KeyObservable.html">KeyObservable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-forKey">forKey</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-key">key</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sequence">sequence</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-keyObservable">keyObservable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-exitKey">exitKey</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#plugin">plugin</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/plugin/handlerPlugin.js~HandlerPlugin.html">HandlerPlugin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/plugin/minerObservablePlugin.js~MinerObservablePlugin.html">MinerObservablePlugin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/plugin/providerPlugin.js~ProviderPlugin.html">ProviderPlugin</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/plugin/minerObservablePlugin.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">const ProviderPlugin = require(&apos;./providerPlugin&apos;);
+
+function throwUnimplementedMethod(methodName, pluginName){
+	throw `${methodName} method is not implemented by Plugin &apos;${pluginName}&apos;`
+}
+
+/**
+ * A base class to simplify the implementantion of a Miner Observable Plugin, which is also a Provider Plugin
+ *
+ * The Miner observable is a listener, that checks the miner for current blocks, errors and exits
+ *
+ * When writing a Miner observable, you don&apos;t need to implement `provide()` but the following methods:
+ *
+ * - blockEvents()
+ * - errorEvents()
+ * - closeEvents()
+ *
+ */
+class MinerObservablePlugin extends ProviderPlugin {
+	/**
+	 * @param {string} name
+	 */
+	constructor(name){
+		super(name);
+	}
+	
+	/**
+	 * @return {IObservable} A rxjs (V6+) event stream, i.e. Observable, of current mining block
+	 */
+	blockEvents() {
+		throwUnimplementedMethod(&apos;blockEvents&apos;, this.name);
+	}
+	
+	/**
+	 * @return {IObservable} A rxjs (V6+) event stream, i.e. Observable, of errors
+	 */
+	errorEvents() {
+		throwUnimplementedMethod(&apos;errorEvents&apos;, this.name);
+	}
+	
+	/**
+	 * @return {IObservable} A rxjs (V6+) event stream, i.e. Observable, of close/exit events (if possible)
+	 */
+	closeEvents() {
+		throwUnimplementedMethod(&apos;closeEvents&apos;, this.name);
+	}
+	
+	/**
+	 * Provides three event streams used by backbone
+	 * @returns {{blockEvents: IObservable, errorEvents: IObservable, closeEvents: IObservable}}
+	 */
+	provide(){
+		return {
+			blockEvents : this.blockEvents(),
+			errorEvents : this.errorEvents(),
+			closeEvents : this.closeEvents()
+		}
+	}
+}
+
+module.exports = MinerObservablePlugin;
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

@@ -61,7 +61,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "yarn test:dev"
+      "pre-push": "yarn test:dev && yarn esdoc"
     }
   }
 }

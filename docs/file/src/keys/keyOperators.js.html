@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/keys/keyOperators.js | burst-miner-watchdog-plugin-sdk</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Plugin SDK for burst-miner-watchdog"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="burst-miner-watchdog-plugin-sdk"><meta property="twitter:description" content="Plugin SDK for burst-miner-watchdog"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/ohager/burst-miner-watchdog-plugin-sdk.git"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#keys">keys</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/keys/keyObservable.js~KeyObservable.html">KeyObservable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-forKey">forKey</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-key">key</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sequence">sequence</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-keyObservable">keyObservable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-exitKey">exitKey</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#plugin">plugin</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/plugin/handlerPlugin.js~HandlerPlugin.html">HandlerPlugin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/plugin/minerObservablePlugin.js~MinerObservablePlugin.html">MinerObservablePlugin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/plugin/providerPlugin.js~ProviderPlugin.html">ProviderPlugin</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/keys/keyOperators.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">const {filter} = require(&apos;rxjs/operators&apos;);
+
+const isKey = (k) =&gt; ({name}) =&gt; name === k;
+const isSequence = (s) =&gt; ({sequence}) =&gt; sequence === s;
+
+/**
+ * Filter operator for specific key events
+ * @param k The key event of `{name,[sequence]}`
+ * @returns {OperatorFunction&lt;any, any&gt; | MonoTypeOperatorFunction&lt;any&gt;}
+ */
+const key = (k) =&gt; filter(isKey(k));
+
+/**
+ * Filter operator for specific key sequence events
+ * @param s The key event of `{[name],sequence}`
+ * @returns {OperatorFunction&lt;any, any&gt; | MonoTypeOperatorFunction&lt;any&gt;}
+ */
+const sequence = (s) =&gt; filter(isSequence(s));
+
+/**
+ * Simple RxJS operator to filter Exit Key events, i.e. ESC and Ctrl-C
+ *
+ * @example
+ *
+ * 	key$.pipe(exitKey).subscribe(fn);
+ *
+ */
+const exitKey = filter((e) =&gt; isKey(&apos;escape&apos;)(e) || isSequence(&apos;\u0003&apos;)(e));
+
+/**
+ * High Order Function that allows (transparent) executions for specific keys.
+ * @example
+ *
+ * key$
+ * .do(forKey(&apos;c&apos;)(printConfiguration))
+ * .do(forKey(&apos;h&apos;)(() =&gt; printHelp(keyMap)))
+ *
+ * @param k A key event of type `{name,sequence}`
+ * @returns A function with first argument as callback, and 2nd as calling context
+ */
+const forKey = k =&gt; (fn, ctx = null) =&gt; ({name, sequence}) =&gt; (name === k || sequence === k) &amp;&amp; fn.call(ctx);
+
+module.exports = {
+	forKey,
+	exitKey,
+	key,
+	sequence,
+};
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

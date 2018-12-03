@@ -1,0 +1,1332 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/keys/keyObservable.js",
+    "content": "const readline = require('readline');\r\nconst process = require('process');\r\nconst {fromEventPattern} = require('rxjs');\r\n\r\n/**\r\n * Creates an observable event stream (rxjs) of key strokes\r\n */\r\nclass KeyObservable {\r\n\t\r\n\tconstructor(){\r\n\t\treadline.emitKeypressEvents(process.stdin);\r\n\t\tprocess.stdin.setRawMode(true);\r\n\t}\r\n\t\r\n\t/**\r\n\t * Get key stroke observable\r\n\t * @example\r\n\t * key event structure\r\n\t * { name, sequence }\r\n\t *\r\n\t * @returns {*} An observable stream of key strokes\r\n\t */\r\n\tget() {\r\n\t\treturn fromEventPattern(\r\n\t\t\t(handler) => {\r\n\t\t\t\tprocess.stdin.on('keypress', handler)\r\n\t\t\t},\r\n\t\t\t(handler) => {\r\n\t\t\t\tprocess.stdin.removeListener('keypress', handler)\r\n\t\t\t},\r\n\t\t\t(str, {name, sequence}) => {\r\n\t\t\t\treturn {name, sequence}\r\n\t\t\t}\r\n\t\t);\r\n\t}\r\n\t\r\n}\r\n\r\nmodule.exports = new KeyObservable();\r\n",
+    "static": true,
+    "longname": "c:/coding/devbutze/burst-miner-watchdog-plugin-sdk/src/keys/keyObservable.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "KeyObservable",
+    "memberof": "src/keys/keyObservable.js",
+    "static": true,
+    "longname": "src/keys/keyObservable.js~KeyObservable",
+    "access": "public",
+    "export": true,
+    "importPath": "burst-miner-watchdog-plugin-sdk/src/keys/keyObservable.js",
+    "importStyle": null,
+    "description": "Creates an observable event stream (rxjs) of key strokes",
+    "lineNumber": 8,
+    "pseudoExport": true,
+    "interface": false
+  },
+  {
+    "__docId__": 50,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/keys/keyObservable.js~KeyObservable",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/keys/keyObservable.js~KeyObservable#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "method",
+    "name": "get",
+    "memberof": "src/keys/keyObservable.js~KeyObservable",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/keys/keyObservable.js~KeyObservable#get",
+    "access": "public",
+    "description": "Get key stroke observable",
+    "examples": [
+      "key event structure\n{ name, sequence }"
+    ],
+    "lineNumber": 23,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{*} An observable stream of key strokes"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "An observable stream of key strokes"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "keyObservable",
+    "memberof": "src/keys/keyObservable.js",
+    "static": true,
+    "longname": "src/keys/keyObservable.js~keyObservable",
+    "access": "public",
+    "export": true,
+    "importPath": "burst-miner-watchdog-plugin-sdk/src/keys/keyObservable.js",
+    "importStyle": "keyObservable",
+    "description": null,
+    "lineNumber": 39,
+    "undocument": true,
+    "type": {
+      "types": [
+        "src/keys/keyObservable.js~KeyObservable"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "src/keys/keyOperators.js",
+    "content": "const {filter} = require('rxjs/operators');\r\n\r\nconst isKey = (k) => ({name}) => name === k;\r\nconst isSequence = (s) => ({sequence}) => sequence === s;\r\n\r\n/**\r\n * Filter operator for specific key events\r\n * @param k The key event of `{name,[sequence]}`\r\n * @returns {OperatorFunction<any, any> | MonoTypeOperatorFunction<any>}\r\n */\r\nconst key = (k) => filter(isKey(k));\r\n\r\n/**\r\n * Filter operator for specific key sequence events\r\n * @param s The key event of `{[name],sequence}`\r\n * @returns {OperatorFunction<any, any> | MonoTypeOperatorFunction<any>}\r\n */\r\nconst sequence = (s) => filter(isSequence(s));\r\n\r\n/**\r\n * Simple RxJS operator to filter Exit Key events, i.e. ESC and Ctrl-C\r\n *\r\n * @example\r\n *\r\n * \tkey$.pipe(exitKey).subscribe(fn);\r\n *\r\n */\r\nconst exitKey = filter((e) => isKey('escape')(e) || isSequence('\\u0003')(e));\r\n\r\n/**\r\n * High Order Function that allows (transparent) executions for specific keys.\r\n * @example\r\n *\r\n * key$\r\n * .do(forKey('c')(printConfiguration))\r\n * .do(forKey('h')(() => printHelp(keyMap)))\r\n *\r\n * @param k A key event of type `{name,sequence}`\r\n * @returns A function with first argument as callback, and 2nd as calling context\r\n */\r\nconst forKey = k => (fn, ctx = null) => ({name, sequence}) => (name === k || sequence === k) && fn.call(ctx);\r\n\r\nmodule.exports = {\r\n\tforKey,\r\n\texitKey,\r\n\tkey,\r\n\tsequence,\r\n};\r\n",
+    "static": true,
+    "longname": "c:/coding/devbutze/burst-miner-watchdog-plugin-sdk/src/keys/keyOperators.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "function",
+    "name": "isKey",
+    "memberof": "src/keys/keyOperators.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/keys/keyOperators.js~isKey",
+    "access": "public",
+    "export": false,
+    "importPath": "burst-miner-watchdog-plugin-sdk/src/keys/keyOperators.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "k",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "function",
+    "name": "isSequence",
+    "memberof": "src/keys/keyOperators.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/keys/keyOperators.js~isSequence",
+    "access": "public",
+    "export": false,
+    "importPath": "burst-miner-watchdog-plugin-sdk/src/keys/keyOperators.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "s",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "function",
+    "name": "forKey",
+    "memberof": "src/keys/keyOperators.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/keys/keyOperators.js~forKey",
+    "access": "public",
+    "export": true,
+    "importPath": "burst-miner-watchdog-plugin-sdk/src/keys/keyOperators.js",
+    "importStyle": "{forKey}",
+    "description": "High Order Function that allows (transparent) executions for specific keys.",
+    "examples": [
+      "\nkey$\n.do(forKey('c')(printConfiguration))\n.do(forKey('h')(() => printHelp(keyMap)))"
+    ],
+    "lineNumber": 41,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "A function with first argument as callback, and 2nd as calling context"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "k",
+        "description": "A key event of type `{name,sequence}`"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "A function with first argument as callback, and 2nd as calling context"
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "variable",
+    "name": "exitKey",
+    "memberof": "src/keys/keyOperators.js",
+    "static": true,
+    "longname": "src/keys/keyOperators.js~exitKey",
+    "access": "public",
+    "export": true,
+    "importPath": "burst-miner-watchdog-plugin-sdk/src/keys/keyOperators.js",
+    "importStyle": "{exitKey}",
+    "description": "Simple RxJS operator to filter Exit Key events, i.e. ESC and Ctrl-C",
+    "examples": [
+      "\n\tkey$.pipe(exitKey).subscribe(fn);"
+    ],
+    "lineNumber": 28,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "function",
+    "name": "key",
+    "memberof": "src/keys/keyOperators.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/keys/keyOperators.js~key",
+    "access": "public",
+    "export": true,
+    "importPath": "burst-miner-watchdog-plugin-sdk/src/keys/keyOperators.js",
+    "importStyle": "{key}",
+    "description": "Filter operator for specific key events",
+    "lineNumber": 11,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{OperatorFunction<any, any> | MonoTypeOperatorFunction<any>}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "k",
+        "description": "The key event of `{name,[sequence]}`"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "OperatorFunction<any, any> | MonoTypeOperatorFunction<any>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "function",
+    "name": "sequence",
+    "memberof": "src/keys/keyOperators.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/keys/keyOperators.js~sequence",
+    "access": "public",
+    "export": true,
+    "importPath": "burst-miner-watchdog-plugin-sdk/src/keys/keyOperators.js",
+    "importStyle": "{sequence}",
+    "description": "Filter operator for specific key sequence events",
+    "lineNumber": 18,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{OperatorFunction<any, any> | MonoTypeOperatorFunction<any>}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "s",
+        "description": "The key event of `{[name],sequence}`"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "OperatorFunction<any, any> | MonoTypeOperatorFunction<any>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "file",
+    "name": "src/plugin/handlerPlugin.js",
+    "content": "/**\r\n * Handler Plugin base class.\r\n *\r\n * A Handler receives events from the watchdog backbone. Based on that events you may trigger any action you want, i.e. send message on won block, etc.\r\n * The watchdog can serve multiple handlers.\r\n *\r\n * Inherit from this class and override onEvent() for writing your own watchdog handler.\r\n */\r\nclass HandlerPlugin {\r\n\t/**\r\n\t * @param {string} name The name of this plugin\r\n\t */\r\n\tconstructor(name){\r\n\t\tthis.__name = name;\r\n\t}\r\n\t\r\n\t/**\r\n\t * @returns {string} The name of this plugin\r\n\t */\r\n\tget name(){ return this.__name};\r\n\t\r\n\t/**\r\n\t * Called by watchdog backbone\r\n\t * @param {string} typeName The name of the event\r\n\t * @param {object} event the event object itself\r\n\t */\r\n\tonEvent(typeName, event){\r\n\t\tthrow `onEvent() method is not implemented by custom Plugin '${this.name}'`\r\n\t}\r\n}\r\n\r\nmodule.exports = HandlerPlugin;\r\n",
+    "static": true,
+    "longname": "c:/coding/devbutze/burst-miner-watchdog-plugin-sdk/src/plugin/handlerPlugin.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 61,
+    "kind": "class",
+    "name": "HandlerPlugin",
+    "memberof": "src/plugin/handlerPlugin.js",
+    "static": true,
+    "longname": "src/plugin/handlerPlugin.js~HandlerPlugin",
+    "access": "public",
+    "export": true,
+    "importPath": "burst-miner-watchdog-plugin-sdk/src/plugin/handlerPlugin.js",
+    "importStyle": "HandlerPlugin",
+    "description": "Handler Plugin base class.\n\nA Handler receives events from the watchdog backbone. Based on that events you may trigger any action you want, i.e. send message on won block, etc.\nThe watchdog can serve multiple handlers.\n\nInherit from this class and override onEvent() for writing your own watchdog handler.",
+    "lineNumber": 9,
+    "interface": false
+  },
+  {
+    "__docId__": 62,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/plugin/handlerPlugin.js~HandlerPlugin",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/plugin/handlerPlugin.js~HandlerPlugin#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 13,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "The name of this plugin"
+      }
+    ]
+  },
+  {
+    "__docId__": 63,
+    "kind": "member",
+    "name": "__name",
+    "memberof": "src/plugin/handlerPlugin.js~HandlerPlugin",
+    "static": false,
+    "longname": "src/plugin/handlerPlugin.js~HandlerPlugin#__name",
+    "access": "private",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "get",
+    "name": "name",
+    "memberof": "src/plugin/handlerPlugin.js~HandlerPlugin",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/plugin/handlerPlugin.js~HandlerPlugin#name",
+    "access": "public",
+    "description": "",
+    "lineNumber": 20,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string} The name of this plugin"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "The name of this plugin"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "method",
+    "name": "onEvent",
+    "memberof": "src/plugin/handlerPlugin.js~HandlerPlugin",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/plugin/handlerPlugin.js~HandlerPlugin#onEvent",
+    "access": "public",
+    "description": "Called by watchdog backbone",
+    "lineNumber": 27,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "typeName",
+        "description": "The name of the event"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "event",
+        "description": "the event object itself"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "src/plugin/minerObservablePlugin.js",
+    "content": "const ProviderPlugin = require('./providerPlugin');\r\n\r\nfunction throwUnimplementedMethod(methodName, pluginName){\r\n\tthrow `${methodName} method is not implemented by Plugin '${pluginName}'`\r\n}\r\n\r\n/**\r\n * A base class to simplify the implementantion of a Miner Observable Plugin, which is also a Provider Plugin\r\n *\r\n * The Miner observable is a listener, that checks the miner for current blocks, errors and exits\r\n *\r\n * When writing a Miner observable, you don't need to implement `provide()` but the following methods:\r\n *\r\n * - blockEvents()\r\n * - errorEvents()\r\n * - closeEvents()\r\n *\r\n */\r\nclass MinerObservablePlugin extends ProviderPlugin {\r\n\t/**\r\n\t * @param {string} name\r\n\t */\r\n\tconstructor(name){\r\n\t\tsuper(name);\r\n\t}\r\n\t\r\n\t/**\r\n\t * @return {IObservable} A rxjs (V6+) event stream, i.e. Observable, of current mining block\r\n\t */\r\n\tblockEvents() {\r\n\t\tthrowUnimplementedMethod('blockEvents', this.name);\r\n\t}\r\n\t\r\n\t/**\r\n\t * @return {IObservable} A rxjs (V6+) event stream, i.e. Observable, of errors\r\n\t */\r\n\terrorEvents() {\r\n\t\tthrowUnimplementedMethod('errorEvents', this.name);\r\n\t}\r\n\t\r\n\t/**\r\n\t * @return {IObservable} A rxjs (V6+) event stream, i.e. Observable, of close/exit events (if possible)\r\n\t */\r\n\tcloseEvents() {\r\n\t\tthrowUnimplementedMethod('closeEvents', this.name);\r\n\t}\r\n\t\r\n\t/**\r\n\t * Provides three event streams used by backbone\r\n\t * @returns {{blockEvents: IObservable, errorEvents: IObservable, closeEvents: IObservable}}\r\n\t */\r\n\tprovide(){\r\n\t\treturn {\r\n\t\t\tblockEvents : this.blockEvents(),\r\n\t\t\terrorEvents : this.errorEvents(),\r\n\t\t\tcloseEvents : this.closeEvents()\r\n\t\t}\r\n\t}\r\n}\r\n\r\nmodule.exports = MinerObservablePlugin;\r\n",
+    "static": true,
+    "longname": "c:/coding/devbutze/burst-miner-watchdog-plugin-sdk/src/plugin/minerObservablePlugin.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "function",
+    "name": "throwUnimplementedMethod",
+    "memberof": "src/plugin/minerObservablePlugin.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/plugin/minerObservablePlugin.js~throwUnimplementedMethod",
+    "access": "public",
+    "export": false,
+    "importPath": "burst-miner-watchdog-plugin-sdk/src/plugin/minerObservablePlugin.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "methodName",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "pluginName",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 68,
+    "kind": "class",
+    "name": "MinerObservablePlugin",
+    "memberof": "src/plugin/minerObservablePlugin.js",
+    "static": true,
+    "longname": "src/plugin/minerObservablePlugin.js~MinerObservablePlugin",
+    "access": "public",
+    "export": true,
+    "importPath": "burst-miner-watchdog-plugin-sdk/src/plugin/minerObservablePlugin.js",
+    "importStyle": "MinerObservablePlugin",
+    "description": "A base class to simplify the implementantion of a Miner Observable Plugin, which is also a Provider Plugin\n\nThe Miner observable is a listener, that checks the miner for current blocks, errors and exits\n\nWhen writing a Miner observable, you don't need to implement `provide()` but the following methods:\n\n- blockEvents()\n- errorEvents()\n- closeEvents()",
+    "lineNumber": 19,
+    "interface": false,
+    "extends": [
+      "src/plugin/providerPlugin.js~ProviderPlugin"
+    ]
+  },
+  {
+    "__docId__": 69,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/plugin/minerObservablePlugin.js~MinerObservablePlugin",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/plugin/minerObservablePlugin.js~MinerObservablePlugin#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 23,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 70,
+    "kind": "method",
+    "name": "blockEvents",
+    "memberof": "src/plugin/minerObservablePlugin.js~MinerObservablePlugin",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/plugin/minerObservablePlugin.js~MinerObservablePlugin#blockEvents",
+    "access": "public",
+    "description": "",
+    "lineNumber": 30,
+    "return": {
+      "nullable": null,
+      "types": [
+        "IObservable"
+      ],
+      "spread": false,
+      "description": "A rxjs (V6+) event stream, i.e. Observable, of current mining block"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 71,
+    "kind": "method",
+    "name": "errorEvents",
+    "memberof": "src/plugin/minerObservablePlugin.js~MinerObservablePlugin",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/plugin/minerObservablePlugin.js~MinerObservablePlugin#errorEvents",
+    "access": "public",
+    "description": "",
+    "lineNumber": 37,
+    "return": {
+      "nullable": null,
+      "types": [
+        "IObservable"
+      ],
+      "spread": false,
+      "description": "A rxjs (V6+) event stream, i.e. Observable, of errors"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 72,
+    "kind": "method",
+    "name": "closeEvents",
+    "memberof": "src/plugin/minerObservablePlugin.js~MinerObservablePlugin",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/plugin/minerObservablePlugin.js~MinerObservablePlugin#closeEvents",
+    "access": "public",
+    "description": "",
+    "lineNumber": 44,
+    "return": {
+      "nullable": null,
+      "types": [
+        "IObservable"
+      ],
+      "spread": false,
+      "description": "A rxjs (V6+) event stream, i.e. Observable, of close/exit events (if possible)"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 73,
+    "kind": "method",
+    "name": "provide",
+    "memberof": "src/plugin/minerObservablePlugin.js~MinerObservablePlugin",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/plugin/minerObservablePlugin.js~MinerObservablePlugin#provide",
+    "access": "public",
+    "description": "Provides three event streams used by backbone",
+    "lineNumber": 52,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{{blockEvents: IObservable, errorEvents: IObservable, closeEvents: IObservable}}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{blockEvents: IObservable, errorEvents: IObservable, closeEvents: IObservable}"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 74,
+    "kind": "file",
+    "name": "src/plugin/providerPlugin.js",
+    "content": "/**\r\n * The provider plugin base class\r\n *\r\n * A Provider provides a source of events\r\n * The watchdog uses _three_ source providers, each provider type must be a single instance, i.e. there cannot be two Explorers\r\n * - Explorer: Is responsible for getting the most recent mined block height of the BURST network\r\n * - Miner Observable: Is responsible for delegating the current block your miner is working on to the watchdog\r\n * - Miner Process: Is responsible for pointing to the miner process, such that can be restarted.\r\n *\r\n * Inherit from this class and override provide() for writing your own watchdog provider.\r\n *\r\n * @see MinerObservablePlugin\r\n */\r\nclass ProviderPlugin {\r\n\t/**\r\n\t * @param {string} name The name of this plugin\r\n\t */\r\n\tconstructor(name){\r\n\t\tthis.__name = name;\r\n\t}\r\n\t\r\n\t/**\r\n\t * @returns {string} The name of this plugin\r\n\t */\r\n\tget name(){ return this.__name};\r\n\t\r\n\t/**\r\n\t * Provides an event source in form of RxJs Observable\r\n\t * @return {IObservable} An RxJS observable\r\n\t */\r\n\tprovide(){\r\n\t\tthrow `provide() method is not implemented by Provider Plugin '${this.name}'`;\r\n\t}\r\n}\r\n\r\nmodule.exports = ProviderPlugin;\r\n",
+    "static": true,
+    "longname": "c:/coding/devbutze/burst-miner-watchdog-plugin-sdk/src/plugin/providerPlugin.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 75,
+    "kind": "class",
+    "name": "ProviderPlugin",
+    "memberof": "src/plugin/providerPlugin.js",
+    "static": true,
+    "longname": "src/plugin/providerPlugin.js~ProviderPlugin",
+    "access": "public",
+    "export": true,
+    "importPath": "burst-miner-watchdog-plugin-sdk/src/plugin/providerPlugin.js",
+    "importStyle": "ProviderPlugin",
+    "description": "The provider plugin base class\n\nA Provider provides a source of events\nThe watchdog uses _three_ source providers, each provider type must be a single instance, i.e. there cannot be two Explorers\n- Explorer: Is responsible for getting the most recent mined block height of the BURST network\n- Miner Observable: Is responsible for delegating the current block your miner is working on to the watchdog\n- Miner Process: Is responsible for pointing to the miner process, such that can be restarted.\n\nInherit from this class and override provide() for writing your own watchdog provider.",
+    "see": [
+      "MinerObservablePlugin"
+    ],
+    "lineNumber": 14,
+    "interface": false
+  },
+  {
+    "__docId__": 76,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/plugin/providerPlugin.js~ProviderPlugin",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/plugin/providerPlugin.js~ProviderPlugin#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 18,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "The name of this plugin"
+      }
+    ]
+  },
+  {
+    "__docId__": 77,
+    "kind": "member",
+    "name": "__name",
+    "memberof": "src/plugin/providerPlugin.js~ProviderPlugin",
+    "static": false,
+    "longname": "src/plugin/providerPlugin.js~ProviderPlugin#__name",
+    "access": "private",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "get",
+    "name": "name",
+    "memberof": "src/plugin/providerPlugin.js~ProviderPlugin",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/plugin/providerPlugin.js~ProviderPlugin#name",
+    "access": "public",
+    "description": "",
+    "lineNumber": 25,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string} The name of this plugin"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "The name of this plugin"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "method",
+    "name": "provide",
+    "memberof": "src/plugin/providerPlugin.js~ProviderPlugin",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/plugin/providerPlugin.js~ProviderPlugin#provide",
+    "access": "public",
+    "description": "Provides an event source in form of RxJs Observable",
+    "lineNumber": 31,
+    "return": {
+      "nullable": null,
+      "types": [
+        "IObservable"
+      ],
+      "spread": false,
+      "description": "An RxJS observable"
+    },
+    "params": []
+  },
+  {
+    "kind": "index",
+    "content": "# burst-miner-watchdog-plugin-sdk\r\n\r\n[![Build Status](https://travis-ci.org/ohager/burst-miner-watchdog-plugin-sdk.svg?branch=master)](https://travis-ci.org/ohager/burst-miner-watchdog-plugin-sdk) [![codecov](https://codecov.io/gh/ohager/burst-miner-watchdog-plugin-sdk/branch/master/graph/badge.svg)](https://codecov.io/gh/ohager/burst-miner-watchdog-plugin-sdk) [![Greenkeeper badge](https://badges.greenkeeper.io/ohager/burst-miner-watchdog-plugin-sdk.svg)](https://greenkeeper.io/)\r\n\r\nSDK for Plugin Development for [Burstcoin Miner Watchdog](https://github.com/ohager/burst-miner-watchdog.git)\r\n\r\n\r\n## What is it?\r\n\r\nThis repository provides tools for developing plugin, i.e. useful functions etc., for the \r\n[Burstcoin Miner Watchdog](https://github.com/ohager/burst-miner-watchdog.git)\r\n\r\n// TODO\r\n\r\n",
+    "longname": "c:\\coding\\devbutze\\burst-miner-watchdog-plugin-sdk\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\r\n  \"author\": {\r\n    \"name\": \"ohager\",\r\n    \"email\": \"oliver@devbutze.com\"\r\n  },\r\n  \"license\": \"MIT\",\r\n  \"name\": \"burst-miner-watchdog-plugin-sdk\",\r\n  \"version\": \"0.0.1\",\r\n  \"description\": \"Plugin SDK for burst-miner-watchdog\",\r\n  \"keywords\": [\r\n    \"burst\",\r\n    \"burstcoin\",\r\n    \"miner\",\r\n    \"mining\",\r\n    \"resilience\",\r\n    \"automation\",\r\n    \"burst-miner-watchdog\",\r\n    \"plugin\"\r\n  ],\r\n  \"private\": false,\r\n  \"repository\": {\r\n    \"type\": \"git\",\r\n    \"url\": \"https://github.com/ohager/burst-miner-watchdog-plugin-sdk.git\"\r\n  },\r\n  \"devDependencies\": {\r\n    \"babel-cli\": \"^6.24.1\",\r\n    \"babel-preset-stage-2\": \"^6.24.1\",\r\n    \"codecov\": \"^3.0.0\",\r\n    \"cross-env\": \"^5.0.1\",\r\n    \"esdoc\": \"^1.1.0\",\r\n    \"esdoc-node\": \"^1.0.3\",\r\n    \"esdoc-standard-plugin\": \"^1.0.0\",\r\n    \"fs-extra\": \"^7.0.1\",\r\n    \"inquirer\": \"^6.2.0\",\r\n    \"jest\": \"^23.0.0\",\r\n    \"module-alias\": \"^2.1.0\",\r\n    \"semver\": \"^5.5.0\"\r\n  },\r\n  \"jest\": {\r\n    \"testEnvironment\": \"node\",\r\n    \"moduleNameMapper\": {\r\n      \"@/(.*)$\": \"<rootDir>/src/$1\"\r\n    }\r\n  },\r\n  \"dependencies\": {\r\n    \"axios\": \"^0.18.0\",\r\n    \"husky\": \"^1.2.0\",\r\n    \"rxjs\": \"^6.3.3\"\r\n  },\r\n  \"engines\": {\r\n    \"node\": \">=8.9.0\"\r\n  },\r\n  \"preferGlobal\": true,\r\n  \"scripts\": {\r\n    \"build\": \"babel src --out-dir dist --copy-files\",\r\n    \"esdoc\": \"./node_modules/.bin/esdoc\",\r\n    \"test:dev\": \"cross-env NODE_ENV=test jest\",\r\n    \"test\": \"cross-env NODE_ENV=test jest --coverage && codecov\",\r\n    \"release\": \"npm run test:dev && npm run build && node ./tools/tag.js\",\r\n    \"release-local\": \"npm run test:dev && npm run build && node ./tools/install-local.js\"\r\n  },\r\n  \"husky\": {\r\n    \"hooks\": {\r\n      \"pre-push\": \"yarn test:dev && yarn esdoc\"\r\n    }\r\n  }\r\n}\r\n",
+    "longname": "c:\\coding\\devbutze\\burst-miner-watchdog-plugin-sdk\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
