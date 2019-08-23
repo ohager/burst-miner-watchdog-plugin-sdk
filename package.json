@@ -31,7 +31,7 @@
     "esdoc-node": "^1.0.3",
     "esdoc-standard-plugin": "^1.0.0",
     "fs-extra": "^7.0.1",
-    "inquirer": "^6.2.0",
+    "inquirer": "^7.0.0",
     "jest": "^23.0.0",
     "module-alias": "^2.1.0",
     "semver": "^5.5.0"
