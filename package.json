@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "husky": "^1.2.0",
+    "husky": "^4.0.3",
     "rxjs": "^6.3.3"
   },
   "engines": {
